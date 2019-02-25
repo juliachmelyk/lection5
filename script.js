@@ -35,4 +35,19 @@ const carOlena = {
     model:'A6'
 };
 
-  console.log(car);
+const objects ={
+    carOlena,
+    carDima,
+    carAndrew,
+    carVasyl,
+    carJulia
+}
+  console.log(objects);
+
+  const filtered = objects.filter(function(item) {
+
+    return +item.maxSpeed > 200;
+    /// 
+  });
+
+  console.log(filtered);
