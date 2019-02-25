@@ -28,4 +28,11 @@ const carDima = {
     model:'mustang'
 };
 
+const carOlena = {
+    color: 'white',
+    name: 'audi',
+    maxSpeed: '180',
+    model:'A6'
+};
+
   console.log(car);
